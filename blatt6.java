@@ -15,7 +15,6 @@ public class blatt6 {
     }
 
     public static Set<Integer> aufgabe17() {
-        Set<Integer> set = new TreeSet<Integer>();
 
         while(set.size() < 7){
             set.add((int) (Math.random() * 49 + 1));
